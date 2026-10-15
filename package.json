@@ -1,0 +1,7 @@
+{
+  "name": "@open-wxa/wxa-baselib",
+  "version": "0.1.0",
+  "description": "Unpacked WeChat mini-program base library used by wxa-runner when WeChat DevTools is not installed",
+  "private": true,
+  "license": "SEE LICENSE IN README.md"
+}
