@@ -14,6 +14,7 @@
 3.7.0/
   WAService.js     逻辑层
   WAWebview.js     渲染层
+  WAWorker.js      Worker（wx.createWorker）
   WAVersion.json   版本信息
 ```
 
@@ -24,7 +25,7 @@
 ```bash
 wxa-runner baselib extract 3.7.0        # 解包到 ~/.wxa-runner/baselib/3.7.0
 mkdir 3.7.0
-cp ~/.wxa-runner/baselib/3.7.0/{WAService.js,WAWebview.js,WAVersion.json} 3.7.0/
+cp ~/.wxa-runner/baselib/3.7.0/{WAService.js,WAWebview.js,WAWorker.js,WAVersion.json} 3.7.0/
 ```
 
 wxa-runner 目前最高支持 3.7.0，高于它的版本放进来也不会默认使用。
